@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scale_xs">10dp</dimen>
+    <dimen name="scale_s">20dp</dimen>
+    <dimen name="scale_m">30dp</dimen>
+    <dimen name="scale_l">40dp</dimen>
+    <dimen name="scale_xl">50dp</dimen>
+    <dimen name="scale_xxl">60dp</dimen>
+</resources>

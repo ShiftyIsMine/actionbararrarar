@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/material_dynamic_tertiary70"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/choose_gender" />
+    <RadioGroup
+        android:id="@+id/rgg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/rb_M"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/male" />
+        <RadioButton
+            android:id="@+id/rb_F"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택 완료" />
+
+</LinearLayout>

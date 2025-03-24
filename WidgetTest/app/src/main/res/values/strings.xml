@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WidgetTest</string>
+    <string name="choose_gender">성별을 선택하세여</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="popmale">남성을 선택했음</string>
+    <string name="popfemale">여성을 선택했음</string>
+</resources>
