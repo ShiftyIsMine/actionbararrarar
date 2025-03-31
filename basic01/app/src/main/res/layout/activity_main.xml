@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:text="typeface 속성"
+        android:typeface="monospace"
         android:layout_margin="10dp"
         />
     <TextView
