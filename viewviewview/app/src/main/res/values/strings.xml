@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">직접풀기 4-2</string>
+    <string name="btn1">버튼 1</string>
+    <string name="btn2">버튼 2</string>
+    <string name="txtview">이건 텍스트뷰입니다.</string>
+    <string name="edittxt">이건 에디트 텍스트입니다.</string>
+</resources>
