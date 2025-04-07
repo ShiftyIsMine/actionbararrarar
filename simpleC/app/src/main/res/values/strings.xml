@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">simpleC</string>
+    <string name="text_title">very simple Calculator</string>
+    <string name="edit_hint1">input number first</string>
+    <string name="edit_hint2">input number second</string>
+    <string name="plus">plus</string>
+    <string name="deduct">deduction</string>
+    <string name="multiply">multiply</string>
+    <string name="divide">division</string>
+    <string name="text_result">result : </string>
+    <string name="dividend">dividend</string>
+</resources>
