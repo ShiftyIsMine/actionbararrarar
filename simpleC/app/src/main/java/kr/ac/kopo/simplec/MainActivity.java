@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                 }else {
                     result = num1 / num2;
                 }
-                textResult.setText("result = "+result);
+                textResult.setText(String.format("result : %.3f",result));
             }
 
         }
