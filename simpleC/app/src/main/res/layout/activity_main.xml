@@ -73,7 +73,6 @@
         android:layout_height="200dp"
         android:src="@drawable/dlib"
         />
-
     <TextView
         android:id="@+id/text_result"
         android:layout_width="wrap_content"
