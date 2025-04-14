@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontsize_1">20dp</dimen>
+    <dimen name="fontsize_2">30sp</dimen>
+    <dimen name="fontsize_3">40sp</dimen>
+    <dimen name="fontsize_4">50sp</dimen>
+    <dimen name="fontsize_5">60sp</dimen>
+    <dimen name="fontsize_6">70sp</dimen>
+    <dimen name="fontsize_7">80sp</dimen>
+    <dimen name="firstma">50dp</dimen>
+</resources>

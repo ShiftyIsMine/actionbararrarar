@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">멍멍이 야옹이</string>
+    <string name="text_asking_selecting">선택을 시작할래여?</string>
+    <string name="chk_starting">시작</string>
+    <string name="text_asking_favorite">뭐 좋아해여?</string>
+    <string name="radio_puppy">강아지</string>
+    <string name="radio_cat">고양이</string>
+    <string name="radio_malt">말티즈</string>
+    <string name="btn_done">선택완료</string>
+</resources>
