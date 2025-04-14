@@ -28,7 +28,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-
         >
         <TextView
             android:layout_width="match_parent"
@@ -40,7 +39,7 @@
         <RadioGroup
             android:id="@+id/rg_1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content">
             <RadioButton
                 android:id="@+id/rb_1"
                 android:layout_width="wrap_content"
@@ -62,11 +61,13 @@
                 android:text="@string/radio_puppy"
                 android:textSize="@dimen/textsize_small"
                 />
+        </RadioGroup>
         <Button
             android:id="@+id/btn_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_done"/>
+
         <ImageView
             android:id="@+id/img_1"
             android:layout_width="match_parent"
@@ -75,6 +76,8 @@
             android:layout_margin="@dimen/marginsize_small"
             android:src="@drawable/amlfu"
             />
+
+
     </LinearLayout>
 
 
