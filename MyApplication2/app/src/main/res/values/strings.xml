@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Measuring BMI</string>
+    <string name="name_v">이름</string>
+    <string name="name_w">이름을 쓰세요</string>
+    <string name="weight_v">체중</string>
+    <string name="weight_w">체중을 입력하세요(kg)</string>
+    <string name="height_v">신장</string>
+    <string name="height_w">키를 입력하세요(cm)</string>
+    <string name="age_v">나이</string>
+    <string name="age_w">나이를 입력하세요</string>
+    <string name="btn_done_v">결과 확인</string>
+    <string name="gender_v">성별 선택</string>
+    <string name="gender_m">남</string>
+    <string name="gender_f">여</string>
+    <string name="result_1">BMI </string>
+    <string name="btn_reset_v">초기화</string>
+<!--    <string name="result_3"></string>-->
+<!--    <string name="result_4"></string>-->
+<!--    <string name="result_5"></string>-->
+<!--    <string name="result_6"></string>-->
+<!--    <string name="result_v"></string>-->
+<!--    <string name=""></string>-->
+</resources>

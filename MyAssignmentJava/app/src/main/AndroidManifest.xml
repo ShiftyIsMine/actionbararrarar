@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/omerimpson"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyAssignmentJava"
+        android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_f_size">25sp</dimen>
+    <dimen name="textview_f_size">30sp</dimen>
+    <dimen name="edittext_width">250dp</dimen>
+    <dimen name="items_margin">30dp</dimen>
+    <dimen name="eidt_interval">15dp</dimen>
+    <dimen name="items_margin2">10dp</dimen>
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+<!--    <dimen name=""></dimen>-->
+</resources>
