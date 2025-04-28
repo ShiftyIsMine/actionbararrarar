@@ -17,6 +17,13 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.content.Intent"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GridDri05_5"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="5"
+    tools:context=".GridDri05_5">
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="5"
+        android:hint="첫 번째 숫자"/>
+    <EditText
+        android:id='@+id/edit2'
+        android:layout_height="49dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="5"
+        android:hint="두 번째 숫자"/>
+    <Button
+        android:layout_marginBottom="@+id/firstnumber"
+        android:id="@+id/btnzero"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        android:text="0"
+        />
+    <Button
+        android:id="@+id/btnone"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        android:text="1"
+        />
+    <Button
+        android:id="@+id/btntwo"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        android:text="2"
+        />
+    <Button
+        android:id="@+id/btnthree"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        android:text="3"
+        />
+
+    <Button
+        android:id="@+id/btnfour"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/btnfive"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_gravity="fill_vertical"
+        android:text="5" />
+    <Button
+        android:id="@+id/btnsix"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_gravity="fill_vertical"
+        android:text="6" />
+    <Button
+        android:id="@+id/btnseven"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_gravity="fill_vertical"
+        android:text="7" />
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_gravity="fill_vertical"
+        android:text="8" />
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_gravity="fill_vertical"
+        android:text="9" />
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="더하기" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="빼기"
+        android:id="@+id/btn_minus"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="곱하기"
+        android:id="@+id/btn_multi"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="나누기"
+        android:id="@+id/btn_div"/>
+
+    <TextView
+        android:layout_columnSpan="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="결과 값"
+        android:id="@+id/text_result"/>
+
+
+
+</GridLayout>
