@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
@@ -13,6 +14,8 @@ import androidx.fragment.app.Fragment;
 
 public class MyTabFragment extends Fragment {
     String tabName;
+    ImageView img1;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,14 +29,26 @@ public class MyTabFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         LinearLayout baseLayout = new LinearLayout(super.getActivity());
         baseLayout.setOrientation(LinearLayout.VERTICAL);
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         baseLayout.setLayoutParams(params);
-        if(tabName.equals("Spring"))
+        ImageView img1 = new ImageView(super.getActivity());
+        img1.setImageResource(R.drawable.spring);
+        img1.setAdjustViewBounds(true);
+
+        baseLayout.addView(img1);
+
+        if(tabName.equals("Spring")) {
             baseLayout.setBackgroundColor(Color.GREEN);
-        if(tabName.equals("Sum"))
+            img1.setImageResource(R.drawable.spring);
+        }
+        if(tabName.equals("Sum")) {
             baseLayout.setBackgroundColor(Color.RED);
-        if(tabName.equals("Fall"))
+            img1.setImageResource(R.drawable.summer);
+        }
+        if(tabName.equals("Fall")) {
             baseLayout.setBackgroundColor(Color.GRAY);
+            img1.setImageResource(R.drawable.fall);
+        }
 //        if(tabName.equals("Spring"))
 //            baseLayout.setBackgroundColor(Color.GREEN);
         return baseLayout;
